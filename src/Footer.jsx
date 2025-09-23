@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Footer.css";
 
 function Footer() {
   const [x1, setX1] = useState("START VALUE");
