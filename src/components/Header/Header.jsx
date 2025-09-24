@@ -1,3 +1,4 @@
+import Copyright from "../Copyright/Copyright";
 import "./Header.css";
 
 function Header({ setX1 }) {
@@ -11,6 +12,7 @@ function Header({ setX1 }) {
       >
         CLICK DEL HEADER
       </button>
+      <Copyright />
     </header>
   );
 }

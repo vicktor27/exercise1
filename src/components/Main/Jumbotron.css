@@ -1,0 +1,8 @@
+.jumbotron__title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 42px;
+}
+
+.jumbotron__title--purple {
+  color: purple;
+}

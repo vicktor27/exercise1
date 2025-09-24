@@ -1,0 +1,9 @@
+.copyright {
+  background-color: azure;
+}
+.copyright__paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  color: blueviolet;
+  font-weight: bold;
+}
