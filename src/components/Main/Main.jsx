@@ -1,14 +1,11 @@
-import "./Main.css";
-function Main() {
+import Jumbotron from "./Jumbotron";
+function Main({ otroNombre }) {
   return (
-    <main>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos inventore
-        animi aut dignissimos, quo voluptatibus soluta ab nesciunt atque tenetur
-        totam praesentium iste aspernatur ipsa quis at repellat? Corrupti,
-        cupiditate.
-      </p>
-    </main>
+    <>
+      <h1>COMPARTIENDO ESTADO{otroNombre}</h1>
+      <p>Victor Manuel Solis Carodoza</p>;
+      <Jumbotron texto={otroNombre} />
+    </>
   );
 }
 

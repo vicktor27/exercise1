@@ -1,15 +1,18 @@
-import "./Footer.css";
+function Footer({ setX1, x1 }) {
+  let nombre = "Tambien es una variable";
+  nombre = "Otro valor";
 
-function Footer({ companyName, setCompanyName }) {
   return (
-    <footer className="footer">
-      <h1 className="footer__title">{companyName}</h1>
+    <footer>
+      <h1>Componente de React con Estado: {x1}</h1>
+      <p>El nombre= {nombre}</p>
       <button
         onClick={() => {
-          setCompanyName("ESTO LO VA A ACTUALIZAR EN AMBOS");
+          setX1("Valeria Herandez Lucia Fernandez");
+          nombre = "Valeria Hernandez";
         }}
       >
-        Click to update
+        Actualizar el Estado
       </button>
     </footer>
   );
