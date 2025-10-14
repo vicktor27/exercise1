@@ -1,6 +1,8 @@
 import "./Main.css";
 import Section from "./components/Section/Section";
 import Row from "./components/Row/Row";
+import Botonazo from "./components/Botonazo/Botonazo";
+
 function Main() {
   return (
     <main>
@@ -10,6 +12,8 @@ function Main() {
         <Row />
         <Row />
       </Section>
+
+      <Botonazo />
     </main>
   );
 }
