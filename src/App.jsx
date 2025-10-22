@@ -6,12 +6,14 @@ function App() {
   return (
     <>
       <AppContext.Provider>
-        <div class="app">
-          <Header />
+        <div className="app">
+          <div className="app__wraper ">
+            <Header />
+          </div>
         </div>
       </AppContext.Provider>
     </>
   );
 }
-
+z;
 export default App;

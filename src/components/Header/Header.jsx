@@ -1,14 +1,10 @@
-import Copyright from "../Copyright/Copyright";
+import logo from "../../images/logo-mexico.jpeg";
 import "./Header.css";
 
 function Header() {
   return (
     <header className="header">
-      <img
-        alt="Magical Mexico Logo"
-        className="header__logo"
-        src="./images/logo-mexico.jpeg"
-      />
+      <img className="header__logo" src={logo} alt="Magical Mexico Logo" />
     </header>
   );
 }
