@@ -1,18 +1,16 @@
-import "./Footer.css";
-
-function Footer({ companyName, setCompanyName }) {
+import Copyright from "../Copyright/Copyright";
+import "./footer.css";
+const Footer = () => {
   return (
-    <footer className="footer">
-      <h1 className="footer__title">{companyName}</h1>
-      <button
-        onClick={() => {
-          setCompanyName("ESTO LO VA A ACTUALIZAR EN AMBOS");
-        }}
-      >
-        Click to update
-      </button>
-    </footer>
+    <>
+      <footer className="footer">
+        <h1>Desarrollado por Victor Manuel Solis Cardoza</h1>
+        <p>Aplicación desarrollada en React 18, Node.js, Mongo DB</p>
+        <Copyright />
+      </footer>
+      foo
+    </>
   );
-}
+};
 
 export default Footer;
