@@ -2,23 +2,6 @@ import Header from "./components/Header/Header";
 import { AppContext } from "./components/Context/AppContext";
 import "./App.css";
 import Main from "./components/Main/Main";
-<<<<<<< HEAD
-import { useState } from "react";
-import { AppContext } from "./components/AppContext/AppContext";
-
-function App() {
-  let name = "PhD Victor M Solis Cardoza";
-  const [companyName, setCompanyName] = useState("Rowan Networks");
-  const [copyRight, setCopyRight] = useState("Derechos Reservados UTLD");
-  return (
-    <AppContext.Provider value={{ copyRight, setCopyRight }}>
-      <>
-        <Header companyName={companyName} />
-        <Main />
-        <Footer companyName={companyName} setCompanyName={setCompanyName} />
-      </>
-    </AppContext.Provider>
-=======
 import Footer from "./components/Footer/Footer";
 import api from "./dataProvider/Api";
 import { useEffect, useState } from "react";
@@ -91,7 +74,6 @@ function App() {
         </div>
       </AppContext.Provider>
     </>
->>>>>>> unit3
   );
 }
 
